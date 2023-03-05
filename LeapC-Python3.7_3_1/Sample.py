@@ -1,4 +1,4 @@
-import Leap, sys, time
+import Leap, sys
 
 
 class SampleListener(Leap.Listener):
@@ -9,6 +9,7 @@ class SampleListener(Leap.Listener):
         pass
 
     def on_connect(self, controller):
+        
         pass
 
     def on_disconnect(self, controller):
